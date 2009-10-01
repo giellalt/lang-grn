@@ -1,40 +1,54 @@
-# This is a makefile that builds the XXX morphological parser
+# This is a makefile that builds the GRN morphological parser
 # *****************************************************************
-# This is a dummy file. XXX refers to the name of the language, xxx to the 
+# This is a dummy file. GRN refers to the name of the language, grn to the 
 # ISO code of the language, for use in file names.
 
-# This is a preliminary file that builds a XXX parser based upon
+# This is a preliminary file that builds a GRN parser based upon
 # xfst and not twolc.
 
 # Here we build the final generator , an inverted transducer of the analyzer.
-# It is dependent upon xxx.save
+# It is dependent upon grn.save
 
-ixxx.fst: ../bin/ixxx.fst
-../bin/ixxx.fst: ../bin/xxx.fst
+XFST = xfst #-utf8
+LEXC = lexc #-utf8
+
+SRCS = grn-lex.txt noun-grn-morph.txt noun-grn-lex.txt \
+	adj-grn-lex.txt adv-grn-lex.txt \
+	verb-grn-lex.txt verb-grn-morph.txt \
+	pron-grn-lex.txt \
+	pp-grn-lex.txt \
+	num-grn-lex.txt \
+	punct-grn-lex.txt
+
+
+# This is the ultimate goal, the inverse transducer
+
+igrn.fst: ../bin/igrn.fst
+../bin/igrn.fst: ../bin/grn.fst
 	@echo
-	@echo "*** Building the inverse ixxx.fst ***"
+	@echo "*** Building the inverse igrn.fst ***"
 	@echo
-	@printf "load ../bin/xxx.save \n\
+	@printf "load ../bin/grn.save \n\
 	invert net \n\
-	save stack ../bin/ixxx.fst \n\
-	quit \n" > ../../tmp/ixxx-fst-script
-	@xfst < ../../tmp/ixxx-fst-script
-	@rm -f ../../tmp/ixxx-fst-script
+	save stack ../bin/igrn.fst \n\
+	quit \n" > ../../tmp/igrn-fst-script
+	$(XFST) < ../../tmp/igrn-fst-script
+	@rm -f ../../tmp/igrn-fst-script
 
 
 # This goal is to build the final analyser. It depends on all the files.
 
-xxx.fst: ../bin/xxx.fst
-../bin/xxx.fst: ../bin/xxx.save ../bin/caseconv.fst ../bin/tok.fst 
+grn.fst: ../bin/grn.fst
+../bin/grn.fst: ../bin/grn.save ../bin/caseconv.fst ../bin/tok.fst 
 	@echo
-	@echo "*** Building xxx.fst ***" ;
+	@echo "*** Building grn.fst ***" ;
 	@echo
-	@printf "read regex [[@\"../bin/xxx.save\"] .o. \
+	@printf "read regex [[@\"../bin/grn.save\"] .o. \
 	[@\"../bin/caseconv.fst\"]] ; \n\
-	save stack ../bin/xxx.fst \n\
-	quit \n" > ../../tmp/xxx-fst-script
-	@xfst < ../../tmp/xxx-fst-script
-	@rm -f ../../tmp/xxx-fst-script
+	save stack ../bin/grn.fst \n\
+	quit \n" > ../../tmp/grn-fst-script
+	$(XFST) < ../../tmp/grn-fst-script
+	@rm -f ../../tmp/grn-fst-script
 
 
 # The second goal is to build the caseconv.fst file
@@ -48,7 +62,7 @@ caseconv.fst: ../bin/caseconv.fst
 	@printf "read regex < case.regex \n\
 	save stack ../bin/caseconv.fst \n\
 	quit \n" > ../../tmp/caseconv-script
-	@xfst < ../../tmp/caseconv-script
+	$(XFST) < ../../tmp/caseconv-script
 	@rm -f ../../tmp/caseconv-script
 
 
@@ -62,54 +76,49 @@ tok.fst: ../bin/tok.fst
 	@printf "source tok.txt \n\
 	save stack ../bin/tok.fst \n\
 	quit \n" > ../../tmp/tok-script
-	@xfst < ../../tmp/tok-script
+	$(XFST) < ../../tmp/tok-script
 	@rm -f ../../tmp/tok-script
 
 
-xxx.save: ../bin/xxx.save
-../bin/xxx.save: ../bin/xfst-xxx.bin ../bin/xxx-lex.save
+grn.save: ../bin/grn.save
+../bin/grn.save: ../bin/xfst-grn.bin ../bin/grn-lex.save
 	@echo
-	@echo "*** Building the parser xxx.save ***"
+	@echo "*** Building the parser grn.save ***"
 	@echo
-	@printf "read regex [[@\"../bin/xxx-lex.save\"] .o. \
-	[@\"../bin/xfst-xxx.bin\"]] ; \n\
-	save stack ../bin/xxx.save \n\
-	quit \n" > ../../tmp/xxx-save-script
-	@xfst < ../../tmp/xxx-save-script
-	@rm -f ../../tmp/xxx-save-script
+	@printf "read regex [[@\"../bin/grn-lex.save\"] .o. \
+	[@\"../bin/xfst-grn.bin\"]] ; \n\
+	save stack ../bin/grn.save \n\
+	quit \n" > ../../tmp/grn-save-script
+	$(XFST) < ../../tmp/grn-save-script
+	@rm -f ../../tmp/grn-save-script
 
-# The first goal is to build xxx-lex.save
+# The first goal is to build grn-lex.save
 # This goal depends on a bunch of lexicon files
 
-xxx-lex.save: ../bin/xxx-lex.save
-../bin/xxx-lex.save: xxx-lex.txt noun-xxx-morph.txt noun-xxx-lex.txt \
-        adj-xxx-lex.txt \
-	adv-xxx-lex.txt verb-xxx-lex.txt pron-xxx-lex.txt punct-xxx-lex.txt \
-	pp-xxx-lex.txt
+grn-lex.save: ../bin/grn-lex.save
+../bin/grn-lex.save: $(SRCS)
 	@echo
-	@echo "*** Building xxx-lex.save ***" ;
+	@echo "*** Building grn-lex.save ***" ;
 	@echo
-	printf "compile-source xxx-lex.txt noun-xxx-morph.txt noun-xxx-lex.txt \
-	adj-xxx-lex.txt verb-xxx-lex.txt verb-xxx-morph.txt pron-xxx-lex.txt \
-	adv-xxx-lex.txt pp-xxx-lex.txt punct-xxx-lex.txt \n\
-	save-source ../bin/xxx-lex.save \n\
-	quit \n" > ../../tmp/xxx-lex-save-script
-	@lexc < ../../tmp/xxx-lex-save-script
-	rm -f ../../tmp/xxx-lex-save-script
+	printf "compile-source $(SRCS) \n\
+	save-source ../bin/grn-lex.save \n\
+	quit \n" > ../../tmp/grn-lex-save-script
+	$(LEXC) < ../../tmp/grn-lex-save-script
+	rm -f ../../tmp/grn-lex-save-script
 
-# The second goal is to build xfst-xxx.bin
-# This goal depends on xfst-xxx.txt
+# The second goal is to build xfst-grn.bin
+# This goal depends on xfst-grn.txt
 
-xfst-xxx.bin: ../bin/xfst-xxx.bin
-../bin/xfst-xxx.bin: xfst-xxx.txt
+xfst-grn.bin: ../bin/xfst-grn.bin
+../bin/xfst-grn.bin: xfst-grn.txt
 	@echo
-	@echo "*** Building xfst-xxx.bin ***" ;
+	@echo "*** Building xfst-grn.bin ***" ;
 	@echo
-	@printf "source xfst-xxx.txt \n\
-	save stack ../bin/xfst-xxx.bin \n\
-	quit \n" > ../../tmp/xfst-xxx-script
-	@xfst < ../../tmp/xfst-xxx-script
-	@rm -f ../../tmp/xfst-xxx-script
+	@printf "source xfst-grn.txt \n\
+	save stack ../bin/xfst-grn.bin \n\
+	quit \n" > ../../tmp/xfst-grn-script
+	$(XFST) < ../../tmp/xfst-grn-script
+	@rm -f ../../tmp/xfst-grn-script
 
 clean:
 	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save

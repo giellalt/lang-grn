@@ -3,12 +3,15 @@
 ! Since the verbs are prefixing, we direct to 
 ! verb-grm-morph.txt first, ahd then here
 
-LEXICON VerbRoot
 
 LEXICON areal     
-# ;
+guata # "walk" ;
+moporâ # "embellish" ;
+
 LEXICON aireal      
-# ;
+pyvu # "beat" ;
+pytyvô # "help" ;
+
 LEXICON chendal
 
 # ;

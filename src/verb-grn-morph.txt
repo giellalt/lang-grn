@@ -4,20 +4,21 @@ LEXICON Verb
 
 ! areal conjugation class
 
-+1Sg:a  areal ;
-+2Sg:re  areal ;
-+3Sg:o  areal ;
-+1Pli:ja  areal ;
-+1Plx:ro  areal ;
-+2Pl:ja  areal ;
-+3Pl:ro  areal ;
++1Sg:a%>  areal ;
++2Sg:re%>  areal ;
++3Sg:o%>  areal ;
++1Pli:ja%^NAS%>  areal ;
++1Plx:ro%>  areal ;
++2Pl:pe%>  areal ;
++3Pl:o%>  areal ;
 
 ! aireal  conjugation class
 
 +1Sg:  aireal ;
 +2Sg:  aireal ;
 +3Sg:  aireal ;
-+1Pl:  aireal ;
++1Pli:  aireal ;
++1Ple:  aireal ;
 +2Pl:  aireal ;
 +3Pl:  aireal ;
 
@@ -30,13 +31,13 @@ LEXICON Verb
 +2Pl:  chendal ;
 +3Pl:  chendal ;
 
-           walk        use          be.big
-1s       a-guata      ai-poru      che-tuicha
-2s       re-guata      rei-poru      nde-tuicha
-3s       o-guata      oi-poru       i-tuicha
-1pi      ja-guata      jai-poru      ñande-tuicha
-1px      ro-guata      roi-poru      ore-tuicha
-2p       pe-guata      pei-poru      pende-tuicha
-3p       o-guata      oi-poru      i-tuicha
+!!            walk        use          be.big
+!! 1s       a-guata      ai-poru      che-tuicha
+!! 2s       re-guata      rei-poru      nde-tuicha
+!! 3s       o-guata      oi-poru       i-tuicha
+!! 1pi      ja-guata      jai-poru      ñande-tuicha
+!! 1px      ro-guata      roi-poru      ore-tuicha
+!! 2p       pe-guata      pei-poru      pende-tuicha
+!! 3p       o-guata      oi-poru      i-tuicha
 
 
