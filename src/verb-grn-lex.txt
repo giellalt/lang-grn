@@ -1,0 +1,14 @@
+
+! Note
+! Since the verbs are prefixing, we direct to 
+! verb-grm-morph.txt first, ahd then here
+
+LEXICON VerbRoot
+
+LEXICON areal     
+# ;
+LEXICON aireal      
+# ;
+LEXICON chendal
+
+# ;

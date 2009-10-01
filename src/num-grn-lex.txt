@@ -1,0 +1,25 @@
+
+! Note: Spanish numerals are used for higher numbers,
+! except for certain nums
+
+LEXICON num
++Num: # ;
+
+
+LEXICON Numeral
+
+peteĩ num ; !  eins
+
+mokõi num ; !  zwei
+
+mbohapy num ; !  drei
+
+irundy num ; !  vier
+
+po num ; !  fünf
+poteĩ num ; !  6
+pokõi num ; !  7
+pohapy num ; !  8
+porundy num ; !  9
+
+
