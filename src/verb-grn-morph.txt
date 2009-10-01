@@ -4,32 +4,32 @@ LEXICON Verb
 
 ! areal conjugation class
 
-+1Sg:a%>  areal ;
-+2Sg:re%>  areal ;
-+3Sg:o%>  areal ;
-+1Pli:ja%^NAS%>  areal ;
-+1Plx:ro%>  areal ;
-+2Pl:pe%>  areal ;
-+3Pl:o%>  areal ;
++1Sg+:a%>  areal ;
++2Sg+:re%>  areal ;
++3Sg+:o%>  areal ;
++1Pli+:ja%^NAS%>  areal ;
++1Plx+:ro%>  areal ;
++2Pl+:pe%>  areal ;
++3Pl+:o%>  areal ;
 
 ! aireal  conjugation class
 
-+1Sg:  aireal ;
-+2Sg:  aireal ;
-+3Sg:  aireal ;
-+1Pli:  aireal ;
-+1Ple:  aireal ;
-+2Pl:  aireal ;
-+3Pl:  aireal ;
++1Sg+:  aireal ;
++2Sg+:  aireal ;
++3Sg+:  aireal ;
++1Pli+:  aireal ;
++1Ple+:  aireal ;
++2Pl+:  aireal ;
++3Pl+:  aireal ;
 
 ! chendal  conjugation class
 
-+1Sg:  chendal ;
-+2Sg:  chendal ;
-+3Sg:  chendal ;
-+1Pl:  chendal ;
-+2Pl:  chendal ;
-+3Pl:  chendal ;
++1Sg+:  chendal ;
++2Sg+:  chendal ;
++3Sg+:  chendal ;
++1Pl+:  chendal ;
++2Pl+:  chendal ;
++3Pl+:  chendal ;
 
 !!            walk        use          be.big
 !! 1s       a-guata      ai-poru      che-tuicha

@@ -16,12 +16,14 @@ echo << defining Cns >>
 define Cns [ b | c | d | f | g | h | j | k | l | m | n
            | p | q | r | s | t | v | w | x | z ];
 
+define Nas [ m | n | ñ | M | N | Ñ ] ;
+
 define Syll [ (Cns) (Cns) Vow (Cns) (Cns) ] ; 
 
 echo << defining Boundary >>
 define Boundary %> ;
 
-
+define Dummy %^NAS ;
 
 
 
@@ -35,22 +37,22 @@ define Boundary %> ;
 
 echo << defining the rules >>
 
-define NasalPrefix j -> m || _ Vow %^NAS ; 
+define NasalPrefix j -> ñ || _ Vow %^NAS %> Nas ; 
 
 
 echo << defining cleanup rules >>
 
-! define Cleanup ö2 -> ö, e2 -> e, o2 -> o ;
 
-define BoundaryDeletion [ %> -> 0 ] ;
+define BoundaryDeletion [ Boundary -> 0 ] ;
 
+define DummyDeletion [ Dummy -> 0 ] ;
 
 echo << composing different parts >>
 
 read regex [ 
 NasalPrefix
-! .o. Cleanup
 .o. BoundaryDeletion
+.o. DummyDeletion
 ] ;
 
 

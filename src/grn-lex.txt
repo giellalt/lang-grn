@@ -7,7 +7,7 @@ Multichar_Symbols
 ! Verbal MSP
 +Prs +Fut +Prt +Prf 
 +Ind +Imp +Cond +Opt
-+1Sg +2Sg +3Sg +1Pl +2Pl +3Pl
++1Sg+ +2Sg+ +3Sg+ +1Pli+ +1Plx+ +2Pl+ +3Pl+
 ! note: we will need the inclusive / exclusive distinction
 +Inf
 +Pos +Neg +ConNeg
