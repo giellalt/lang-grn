@@ -222,7 +222,7 @@ v-para.ptest: verb-codes.txt
 	@echo
 	@rm -f $@
 	$(UMASK) && \
-	$(BINDIR)/merge-codesNword.pl $< $(WORD) > $@
+	$(BINDIR)/merge-wordNcodes.pl $< $(WORD) > $@
 	@chmod 660 $@
 
 # Paradigm generation:
