@@ -7,14 +7,21 @@ echo << THE DEFININTIONS >>
 echo << defining Vow >>
 
 define Vow [ a | e | i | o | y
+           | á | é | í | ó | ý
            | â | ê | î | ô | ŷ
+           | ã | ẽ | ĩ | õ | ỹ
            | A | E | I | O | Y
+           | Á | É | Í | Ó | Ý
            | Â | Ê | Î | Ô | Ŷ
            ];
+! capital tilde vowels
+
 
 echo << defining Cns >>
 define Cns [ b | c | d | f | g | h | j | k | l | m | n
-           | p | q | r | s | t | v | w | x | z ];
+           | p | q | r | s | t | v | w | x | z | g̃ | ñ ] ;
+
+! capitals
 
 define Nas [ m | n | ñ | M | N | Ñ ] ;
 
@@ -23,7 +30,7 @@ define Syll [ (Cns) (Cns) Vow (Cns) (Cns) ] ;
 echo << defining Boundary >>
 define Boundary %> ;
 
-define Dummy %^NAS ;
+define Dummy [ %^NAS | %^RDEL | %^NEG ] ;
 
 
 
@@ -37,8 +44,14 @@ define Dummy %^NAS ;
 
 echo << defining the rules >>
 
+
+define NegativeNasal d -> 0 || _ a %^NEG %> (Cns) (Vow) %^NAS ;
+
 define NasalPrefix j -> ñ || _ Vow %^NAS %> Nas ; 
 
+define NegativeVowel a -> 0 || _ %^NEG %> Vow ;
+
+define NegativeConsDeletion r -> 0 || [ Vow - i ] %> %^RDEL _ ;
 
 echo << defining cleanup rules >>
 
@@ -49,8 +62,10 @@ define DummyDeletion [ Dummy -> 0 ] ;
 
 echo << composing different parts >>
 
-read regex [ 
-NasalPrefix
+read regex [ NegativeNasal
+.o. NasalPrefix
+.o. NegativeVowel
+.o. NegativeConsDeletion
 .o. BoundaryDeletion
 .o. DummyDeletion
 ] ;
