@@ -1,39 +1,50 @@
+CON Verb
+V+: arealm ;
+V+: airealm ;
+V+: chendalm ;
+V+: guearealm ;
 
-LEXICON Verb
 
 
-! areal conjugation class
+LEXICON arealm ! gueareal conjugation class
+Inf+:  areal ;
+        arealdecl ;
 
-+1Sg+:a%>  areal ;
-+2Sg+:re%>  areal ;
-+3Sg+:o%>  areal ;
-+1Pli+:ja%^NAS%>  areal ;
-+1Plx+:ro%>  areal ;
-+2Pl+:pe%>  areal ;
-+3Pl+:o%>  areal ;
+		LEXICON guearealm ! gueareal conjugation class
+		Inf+:gue%>  areal ;
+		             arealdecl ;
 
-! aireal  conjugation class
+LEXICON arealdecl
+1Sg+:a%>  areal ;
+2Sg+:re%>  areal ;
+3Sg+:o%>  areal ;
+1Pli+:ja%^NAS%>  areal ;
+1Plx+:ro%>  areal ;
+2Pl+:pe%>  areal ;
+3Pl+:o%>  areal ;
 
-+1Sg+:  aireal ;
-+2Sg+:  aireal ;
-+3Sg+:  aireal ;
-+1Pli+:  aireal ;
-+1Ple+:  aireal ;
-+2Pl+:  aireal ;
-+3Pl+:  aireal ;
+LEXICON airealm ! aireal  conjugation class
+Inf+: aireal ;
+1Sg+:ai%>  aireal ;
+2Sg+:rei%>  aireal ;
+3Sg+:oi%>  aireal ;
+1Pli+:jai%^NAS%>  aireal ;
+1Plx+:roi%>  aireal ;
+2Pl+:pei%>  aireal ;
+3Pl+:oi%>  aireal ;
 
-! chendal  conjugation class
 
-CON chendalm ! chendal  conjugation class
-Inf+:  			chendal ;
-1Sg+:che%>  	chendal ;
-2Sg+:nde%>  	chendal ;
-3Sg+:i%>  		chendal ;
+LEXICON chendalm ! chendal  conjugation class
+Inf+:  chendal ;
+1Sg+:che%>  chendal ;
+2Sg+:nde%>  chendal ;
+3Sg+:i%>  chendal ;
 1Pli+:ñande%^NAS%>  chendal ;
-1Plx+:ore%>  		chendal ;
-2Pl+:pende%^NAS%>  		chendal ;
-3Pl+:i%>  			chendal ;
+1Plx+:ore%>  chendal ;
+2Pl+:pende%>  chendal ;
+3Pl+:i%>  chendal ;
 
+!!            walk        use          be.big
 !! 1s       a-guata      ai-poru      che-tuicha
 !! 2s       re-guata      rei-poru      nde-tuicha
 !! 3s       o-guata      oi-poru       i-tuicha
@@ -41,5 +52,6 @@ Inf+:  			chendal ;
 !! 1px      ro-guata      roi-poru      ore-tuicha
 !! 2p       pe-guata      pei-poru      pende-tuicha
 !! 3p       o-guata      oi-poru      i-tuicha
+
 
 
