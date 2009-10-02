@@ -5,15 +5,15 @@
 
 
 LEXICON areal
-guata # "walk" ;
-moporâ # "embellish" ;
+guata mood "walk" ;
+moporâ mood "embellish" ;
 
 LEXICON aireal      
-pyvu # "beat" ;
-pytyvô # "help" ;
+pyvu mood "beat" ;
+pytyvô mood "help" ;
 
 LEXICON chendal
-atĩa # "sneeze" ;
-mbarete # "be.strong" ;
-tovy # "be.blue/green" ;
-tuicha # "be.big" ;
+atĩa mood "sneeze" ;
+mbarete mood "be.strong" ;
+tovy mood "be.blue/green" ;
+tuicha mood "be.big" ;

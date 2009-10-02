@@ -9,8 +9,10 @@ N+ V+ A+
 +Ind +Imp +Cond +Opt
 1Sg+ 2Sg+ 3Sg+ 1Pli+ 1Plx+ 2Pl+ 3Pl+
 ! note: we will need the inclusive / exclusive distinction
-+Inf
-+Pos +Neg +ConNeg
+Inf+
+
++Irr +Term +Cond +Des +Compl +Dim
+
 
 ! Nominal MSP
 +Sg +Pl
@@ -39,5 +41,12 @@ Numeral ;
 Pronoun ;
 Postposition ;
 Punctuation ;
+
+
+! POS-neutral affixes and ciltic particles
+
+LEXICON K
+          # ; ! the cliticless ones
++Qst:%>pa # ; ! the ones in -pa
 
 

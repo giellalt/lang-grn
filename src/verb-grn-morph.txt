@@ -1,3 +1,10 @@
+
+
+
+! ----------------- !
+! Prefix morphology !
+! ----------------- !
+
 LEXICON Verb
 V+: arealm ;
 V+: airealm ;
@@ -52,6 +59,24 @@ Inf+:  chendal ;
 !! 1px      ro-guata      roi-poru      ore-tuicha
 !! 2p       pe-guata      pei-poru      pende-tuicha
 !! 3p       o-guata      oi-poru      i-tuicha
+
+
+
+! ----------------- !
+! Suffix morphology !
+! ----------------- !
+
+LEXICON mood
+               K ; ! No mood suffix
++Irr:%>ta      moodloop ;
++Term:%>ramo   moodloop ;
++Cond:%>rõ     moodloop ;
++Des:%>se      moodloop ;
++Compl:%>pa    moodloop ;
++Dim:%>mi      moodloop ;
+
+LEXICON moodloop
+mood ;
 
 
 
