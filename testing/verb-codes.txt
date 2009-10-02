@@ -1,8 +1,8 @@
 V+Inf+
-1Sg+
-2Sg+
-3Sg+
-1Pli+
-1Plx+
-2Pl+
-3Pl+
+V+1Sg+
+V+2Sg+
+V+3Sg+
+V+1Pli+
+V+1Plx+
+V+2Pl+
+V+3Pl+
