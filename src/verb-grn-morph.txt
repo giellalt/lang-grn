@@ -1,11 +1,27 @@
 
+! n(d)a- VERB  -(r)i
+! 
+! ndaguatai
+! ndereguatai
+! ndoguatai
 
+! NEG+Verb+Mood+NEG ASPECT
+! nd-aha-se-i
+! NEG-GO-Des-NEG
+! 
+! n-asẽ-i va'ekue
+! NEG-LEAVE-NEG Remote
 
 ! ----------------- !
 ! Prefix morphology !
 ! ----------------- !
 
 LEXICON Verb
+
+@P.NEG.ON@:nda@P.NEG.ON@ conjugationclasses ;
+
+
+LEXICON conjugationclasses
 V+: arealm ;
 V+: airealm ;
 V+: chendalm ;
@@ -78,9 +94,15 @@ LEXICON moodloop
 mood ;
 
 LEXICON SE
-+Des:%>se      K ;
-               K ;
++Des:%>se      NEG ;
+               NEG ;
+
+LEXICON NEG
+@D.NEG@     K ;
+@R.NEG.ON@     NEGSUF ;
 
 
 
+LEXICON NEGSUF
++Neg:%>ri K ;
 

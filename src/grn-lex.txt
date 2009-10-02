@@ -26,6 +26,11 @@ Inf+
 
 %^NAS
 
+
+@P.NEG.ON@
+@R.NEG.ON@
+@D.NEG@
+
 ! Key lexicon
 
 LEXICON Root
