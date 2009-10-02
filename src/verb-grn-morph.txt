@@ -24,14 +24,16 @@ LEXICON Verb
 
 ! chendal  conjugation class
 
-+1Sg+:  chendal ;
-+2Sg+:  chendal ;
-+3Sg+:  chendal ;
-+1Pl+:  chendal ;
-+2Pl+:  chendal ;
-+3Pl+:  chendal ;
+CON chendalm ! chendal  conjugation class
+Inf+:  			chendal ;
+1Sg+:che%>  	chendal ;
+2Sg+:nde%>  	chendal ;
+3Sg+:i%>  		chendal ;
+1Pli+:ñande%^NAS%>  chendal ;
+1Plx+:ore%>  		chendal ;
+2Pl+:pende%^NAS%>  		chendal ;
+3Pl+:i%>  			chendal ;
 
-!!            walk        use          be.big
 !! 1s       a-guata      ai-poru      che-tuicha
 !! 2s       re-guata      rei-poru      nde-tuicha
 !! 3s       o-guata      oi-poru       i-tuicha
