@@ -4,6 +4,9 @@
 ! ndaguatai
 ! ndereguatai
 ! ndoguatai
+! nda:
+! delete a in front of vowel-initial prefix
+! delete d in front of nasal stems
 
 ! NEG+Verb+Mood+NEG ASPECT
 ! nd-aha-se-i
@@ -102,6 +105,7 @@ LEXICON NEG
 @R.NEG.ON@     NEGSUF ;
 
 
+! Delete r if non-i final vowel
 
 LEXICON NEGSUF
 +Neg:%>ri K ;
