@@ -1,4 +1,4 @@
-CON Verb
+LEXICON Verb
 V+: arealm ;
 V+: airealm ;
 V+: chendalm ;
@@ -10,9 +10,9 @@ LEXICON arealm ! gueareal conjugation class
 Inf+:  areal ;
         arealdecl ;
 
-		LEXICON guearealm ! gueareal conjugation class
-		Inf+:gue%>  areal ;
-		             arealdecl ;
+LEXICON guearealm ! gueareal conjugation class
+Inf+:gue%>  areal ;
+            arealdecl ;
 
 LEXICON arealdecl
 1Sg+:a%>  areal ;
