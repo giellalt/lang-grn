@@ -67,16 +67,20 @@ Inf+:  chendal ;
 ! ----------------- !
 
 LEXICON mood
-               K ; ! No mood suffix
+               SE ; ! No mood suffix
 +Irr:%>ta      moodloop ;
 +Term:%>ramo   moodloop ;
 +Cond:%>rõ     moodloop ;
-+Des:%>se      moodloop ;
 +Compl:%>pa    moodloop ;
 +Dim:%>mi      moodloop ;
 
 LEXICON moodloop
 mood ;
+
+LEXICON SE
++Des:%>se      K ;
+               K ;
+
 
 
 
