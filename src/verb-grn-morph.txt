@@ -22,6 +22,7 @@
 LEXICON Verb
 
 @P.NEG.ON@:nda@P.NEG.ON@ conjugationclasses ;
+                         conjugationclasses ;
 
 
 LEXICON conjugationclasses

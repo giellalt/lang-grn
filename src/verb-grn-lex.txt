@@ -17,6 +17,6 @@ atĩa mood "sneeze" ;
 mbarete mood "be.strong" ;
 tovy mood "be.blue/green" ;
 tuicha mood "be.big" ;
-japu mood # "lie" ; ! untruth
-kane'ô mood # "be tired" ; 
+japu mood "lie" ; ! untruth
+kane'ô mood "be.tired" ; 
 

@@ -99,6 +99,7 @@ grn.save: ../bin/grn.save
 
 ../tmp/grn-lex-all.tmp: 
 	cat $(SRCS) > $@	
+#	cat $(SRCS) > tmpsrc.tmp
 
 grn-lex.save: ../bin/grn-lex.save
 ../bin/grn-lex.save: ../tmp/grn-lex-all.tmp
