@@ -4,7 +4,7 @@
 ! verb-grm-morph.txt first, ahd then here
 
 
-LEXICON areal     
+LEXICON areal
 guata # "walk" ;
 moporâ # "embellish" ;
 
@@ -13,5 +13,7 @@ pyvu # "beat" ;
 pytyvô # "help" ;
 
 LEXICON chendal
-
-# ;
+atĩa # "sneeze" ;
+mbarete # "be.strong" ;
+tovy # "be.blue/green" ;
+tuicha # "be.big" ;
