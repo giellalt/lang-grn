@@ -95,15 +95,18 @@ grn.save: ../bin/grn.save
 # The first goal is to build grn-lex.save
 # This goal depends on a bunch of lexicon files
 
+../tmp/grn-lex-all.tmp: 
+	cat $(SRCS) > $@	
+
 grn-lex.save: ../bin/grn-lex.save
-../bin/grn-lex.save: $(SRCS)
+../bin/grn-lex.save: ../tmp/grn-lex-all.tmp
 	@echo
 	@echo "*** Building grn-lex.save ***" ;
 	@echo
-	printf "compile-source $(SRCS) \n\
-	save-source ../bin/grn-lex.save \n\
+	printf "read lexc ../tmp/grn-lex-all.tmp \n\
+	save stack ../bin/grn-lex.save \n\
 	quit \n" > ../../tmp/grn-lex-save-script
-	$(LEXC) < ../../tmp/grn-lex-save-script
+	$(XFST) < ../../tmp/grn-lex-save-script
 	rm -f ../../tmp/grn-lex-save-script
 
 # The second goal is to build xfst-grn.bin

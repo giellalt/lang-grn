@@ -2,4 +2,5 @@ LECIXON CC ;
 +CC: #;
 
 LEXICON Conjunction ;
-ja CC ;
+ja CC ; !! Perhaps these are two variants of the same conjunction 'and', 'y'
+ha CC ;
