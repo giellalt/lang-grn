@@ -18,10 +18,10 @@ SRCS = grn-lex.txt noun-grn-morph.txt noun-grn-lex.txt \
 	pron-grn-lex.txt \
 	pp-grn-lex.txt \
 	num-grn-lex.txt \
-	punct-grn-lex.txt \
 	cc-grn-lex.txt \
 	interj-grn-lex.txt \
-	cs-grn-lex.txt
+	cs-grn-lex.txt \
+	punct-grn-lex.txt
 
 # This is the ultimate goal, the inverse transducer
 
@@ -126,6 +126,6 @@ xfst-grn.bin: ../bin/xfst-grn.bin
 	@rm -f ../../tmp/xfst-grn-script
 
 clean:
-	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save
+	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save ../tmp/grn-lex-all.tmp
 
 
