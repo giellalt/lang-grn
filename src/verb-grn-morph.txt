@@ -12,7 +12,7 @@
 ! nd-aha-se-i
 ! NEG-GO-Des-NEG
 ! 
-! n-asẽ-i va'ekue
+ n-asẽ-i va'ekue
 ! NEG-LEAVE-NEG Remote
 
 ! ----------------- !
@@ -21,7 +21,7 @@
 
 LEXICON Verb
 
-@P.NEG.ON@:nda@P.NEG.ON@ conjugationclasses ;
+@P.NEG.ON@:nda%^NEG%>@P.NEG.ON@ conjugationclasses ;
                          conjugationclasses ;
 
 
@@ -109,5 +109,5 @@ LEXICON NEG
 ! Delete r if non-i final vowel
 
 LEXICON NEGSUF
-+Neg:%>ri K ;
++Neg:%>%^RDELri K ;
 
