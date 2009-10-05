@@ -5,18 +5,33 @@
 
 
 LEXICON areal
-guata mood "walk" ;
-moporâ mood "embellish" ;
+guata caus2 "walk" ;
+hecha caus2 "see" ;
+moporã caus2 "embellish" ;
+puka caus2 "laugh" ;
+guahẽ caus2 "enter" ;
+sẽ caus2 "exit" ;
+vy'a caus2 "delight, be happy" ; ! not a chendal verb
+mbo'e caus2 "teach" ;
+me'ẽ caus2 "give" ;
+maña caus2 "stare" ;
+ma'ẽ caus2 "stare" ;
+hasa caus2 "pass by, pass through" ;
+mba'apo caus2 "work" ;
 
 LEXICON aireal      
-pyvu mood "beat" ;
-pytyvô mood "help" ;
+pyvu caus2 "beat" ;
+pytyvõ caus2 "help" ;
+pota caus2 "want" ;
+kutu caus2 "cut, stab, fish" ;
+kuaa caus2 "know" ;
 
 LEXICON chendal
-atĩa mood "sneeze" ;
-mbarete mood "be.strong" ;
-tovy mood "be.blue/green" ;
-tuicha mood "be.big" ;
-japu mood "lie" ; ! untruth
-kane'ô mood "be.tired" ; 
-
+atĩa caus2 "sneeze" ;
+mbarete caus2 "be.strong" ;
+tovy caus2 "be.blue/green" ;
+tuicha caus2 "be.big" ;
+japu caus2 "lie" ; ! untruth
+kane'õ caus2 "be.tired" ; 
+pochy caus2 "be.upset" ;
+! tory caus2 "be happy, pleased" ; ! nombohory

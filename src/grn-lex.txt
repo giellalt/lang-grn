@@ -9,7 +9,7 @@ N+ V+ A+
 +Ind +Imp +Cond +Opt
 1Sg+ 2Sg+ 3Sg+ 1Pli+ 1Plx+ 2Pl+ 3Pl+
 ! note: we will need the inclusive / exclusive distinction
-Inf+
+Inf+ Caus+
 
 +Irr +Term +Cond +Des +Compl +Dim
 

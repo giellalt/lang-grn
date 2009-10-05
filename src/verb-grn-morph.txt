@@ -8,11 +8,16 @@
 ! delete a in front of vowel-initial prefix
 ! delete d in front of nasal stems
 
+! another prefix
+! t(a)- - subjunctive?
+! copies following vowel if prefixed to a consonant, except for with pe.
+! tapuka, terepuka, topuka, tajapuka, toropuka, tapepuka, topuka
+
 ! NEG+Verb+Mood+NEG ASPECT
 ! nd-aha-se-i
 ! NEG-GO-Des-NEG
 ! 
- n-asẽ-i va'ekue
+! n-asẽ-i va'ekue
 ! NEG-LEAVE-NEG Remote
 
 ! ----------------- !
@@ -20,8 +25,7 @@
 ! ----------------- !
 
 LEXICON Verb
-
-@P.NEG.ON@:nda%^NEG%>@P.NEG.ON@ conjugationclasses ;
+@P.NEG.ON@:nda@P.NEG.ON@ conjugationclasses ;
                          conjugationclasses ;
 
 
@@ -34,21 +38,34 @@ V+: guearealm ;
 
 
 LEXICON arealm ! gueareal conjugation class
+       arealobjs ;
 Inf+:  areal ;
         arealdecl ;
+
+LEXICON arealobjs ! areal verbs with objects instead of subjects (only one possible)
+1SgObj+:che%> acaus ;
+1SgSub+2pSgObj+:ro%> acaus ;
+2SgObj+:nde%^NAS%> acaus ; ! *ndemboguata is possible, not nemboguata
 
 LEXICON guearealm ! gueareal conjugation class
 Inf+:gue%>  areal ;
             arealdecl ;
 
+
 LEXICON arealdecl
-1Sg+:a%>  areal ;
-2Sg+:re%>  areal ;
-3Sg+:o%>  areal ;
-1Pli+:ja%^NAS%>  areal ;
-1Plx+:ro%>  areal ;
-2Pl+:pe%>  areal ;
-3Pl+:o%>  areal ;
+1Sg+:a%>  acaus ;
+2Sg+:re%>  acaus ;
+3Sg+:o%>  acaus ;
+1Pli+:ja%^NAS%>  acaus ;
+1Plx+:ro%>  acaus ;
+2Pl+:pe%>  acaus ;
+3Pl+:o%>  acaus ;
+
+! caus can be applied to stative verbs?
+LEXICON acaus
+Caus+:mbo%^NAS%>              areal ;
+                              areal ;
+
 
 LEXICON airealm ! aireal  conjugation class
 Inf+: aireal ;
@@ -62,14 +79,20 @@ Inf+: aireal ;
 
 
 LEXICON chendalm ! chendal  conjugation class
-Inf+:  chendal ;
-1Sg+:che%>  chendal ;
-2Sg+:nde%>  chendal ;
-3Sg+:i%>  chendal ;
-1Pli+:ñande%^NAS%>  chendal ;
-1Plx+:ore%>  chendal ;
-2Pl+:pende%>  chendal ;
-3Pl+:i%>  chendal ;
+Inf+:  chendalcaus ;
+1Sg+:che%>  chendalcaus ;
+2Sg+:nde%^NAS%>  chendalcaus ;
+3Sg+:i%>  chendalcaus ;
+1Pli+:ñande%^NAS%>  chendalcaus ;
+1Plx+:ore%>  chendalcaus ;
+2Pl+:pende%^NAS%>  chendalcaus ;
+3Pl+:i%>  chendalcaus ;
+
+LEXICON chendalcaus
+Caus+:mbo%^NAS%>            chendal ;  ! chemokane'õ doesn't appear; nasal harmony
+                            chendal ;
+
+
 
 !!            walk        use          be.big
 !! 1s       a-guata      ai-poru      che-tuicha
@@ -86,16 +109,28 @@ Inf+:  chendal ;
 ! Suffix morphology !
 ! ----------------- !
 
-LEXICON mood
-               SE ; ! No mood suffix
+LEXICON caus2
+               ASPECT ; ! No mood suffix
++Caus2:%>uka   moodloop ;
+
+LEXICON moodloop
+caus2 ;
+
+LEXICON ASPECT
+               SE ;
 +Irr:%>ta      moodloop ;
 +Term:%>ramo   moodloop ;
 +Cond:%>rõ     moodloop ;
 +Compl:%>pa    moodloop ;
 +Dim:%>mi      moodloop ;
 
-LEXICON moodloop
-mood ;
+! following can co-occur: oguerovéma 
+! -ve 'still, more'
+! -ma 'yet, already'
+! -iti 'still, yet'
+
+
+
 
 LEXICON SE
 +Des:%>se      NEG ;
@@ -109,5 +144,5 @@ LEXICON NEG
 ! Delete r if non-i final vowel
 
 LEXICON NEGSUF
-+Neg:%>%^RDELri K ;
++Neg:%>ri K ;
 
