@@ -18,6 +18,34 @@ maña caus2 "stare" ;
 ma'ẽ caus2 "stare" ;
 hasa caus2 "pass by, pass through" ;
 mba'apo caus2 "work" ;
+guapy caus2 "sit" ;
+japaro caus2 "turn over" ;
+jatyko caus2 "lean" ;
+jayvy caus2 "bend down" ;
+jeko caus2 "lean" ;
+jere caus2 "turn" ;
+kacha caus2 "sway" ;
+ku'e caus2 "move" ;
+kuchu caus2 "shake" ;
+mumũ caus2 "swarm" ;
+mỹi caus2 "move" ;
+ñenõ caus2 "lie down" ;
+ñestĩ caus2 "kneel" ;
+pepe caus2 "flap" ;
+po caus2 "jump" ;
+pojái caus2 "reach with hand" ;
+poñy caus2 "crawl" ;
+pu'ã caus2 "get up" ;
+pyryrỹi caus2 "spin" ;
+pyta caus2 "stop" ;
+ryryi caus2 "tremble" ;
+sysyi caus2 "twitch" ;
+tarara caus2 "tremble (strongly)" ;
+temũi caus2 "jiggle" ;
+typeka caus2 "scratch (chicken)" ;
+tytyi caus2 "twitch" ;
+vava caus2 "move back and forth" ;
+
 
 LEXICON aireal      
 pyvu caus2 "beat" ;
