@@ -23,6 +23,25 @@ Monosyllabic postpositions are joined to the stem, polysyllabic are written sepa
 
 * akaru hagua
 
+* nasality marked with tilde (ã ĩ ũ ẽ õ ỹ g̃), but, some encodings do not handle this, so, nearest 
+  match is often used in ascii, e.g.: (â, ï, ÿ).
+
+* Stress is marked when it is not predictable (main stress is on the final syllable), 
+  but sometimes people mark it even when it is:
+
+  maiteí/maitei - saludo
+
+* Contrastive difference between diphthongs and non-diphthongs is also marked:
+
+  peteĩ /pe.te.ĩ/
+  mokõi /mo.kõi/
+
+* Minimal pairs do exist in some dialects, and may be marked with apostrophe (also the character for glottal stop)... 
+
+  mboyve 'before'
+  mbo'yve 'less' (ykuamandyju dialect; "standard" guaraní apparently has mbovyve for this word) 
+
+
 ===Examples===
 
 * pe [a | en, in | to | at]
