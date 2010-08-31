@@ -1,0 +1,64 @@
+# *************************************************************** #
+# This is a makefile that builds the Guarani morphological parser #
+# using the HFST tools.                                           #
+# *************************************************************** #
+
+LEX = grn-lex.txt \
+	noun-grn-lex.txt \
+	noun-grn-morph.txt \
+	adj-grn-lex.txt \
+	verb-grn-lex.txt \
+	verb-grn-morph.txt \
+	num-grn-lex.txt \
+	interj-grn-lex.txt \
+	adv-grn-lex.txt \
+	pron-grn-lex.txt \
+	punct-grn-lex.txt \
+	pp-grn-lex.txt \
+	cc-grn-lex.txt \
+	cs-grn-lex.txt \
+
+#	  numeral-grn-lex.txt \
+#	  det-grn-lex.txt
+#	  acro-grn-lex.txt \
+#	  abbr-grn-lex.txt \
+#	  adj-grn-morph.txt \
+#	  propernoun-grn-lex.txt 
+#	  propernoun-grn-morph.txt 
+
+all: ../bin/grn.hfst
+
+lexc-grn.hfst: ../bin/lexc-grn.hfst
+../bin/lexc-grn.hfst: $(LEX)
+	@echo
+	@echo "*** Building $(notdir $@) ***" ;
+	@echo
+	hfst-lexc $^ -o $@
+
+twol-grn.hfst: ../bin/twol-grn.hfst
+../bin/twol-grn.hfst: twol-grn.txt
+	@echo
+	@echo "*** Building $(notdir $@) ***" ;
+	@echo
+	hfst-twolc $< -o $@ 
+
+grn-gen.hfst: ../bin/grn-gen.hfst 
+../bin/grn-gen.hfst: ../bin/lexc-grn.hfst ../bin/twol-grn.hfst
+	@echo
+	@echo "*** Building $(notdir $@) ***" ;
+	@echo
+	hfst-compose-intersect -l $+ -o $@
+
+grn.hfst: ../bin/grn.hfst
+../bin/grn.hfst: ../bin/grn-gen.hfst
+	@echo
+	@echo "*** Building $(notdir $@) ***" ;
+	@echo
+	hfst-invert $^ -o $@
+	@echo
+	@echo "*** Building lookup-optimized $(notdir $@).ol ***" ;
+	@echo
+	hfst-lookup-optimize $@ -o $@.ol
+
+clean:
+	rm -f ../bin/* ../tmp/*
