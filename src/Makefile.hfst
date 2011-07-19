@@ -35,12 +35,14 @@ lexc-grn.hfst: ../bin/lexc-grn.hfst
 	@echo
 	hfst-lexc $^ -o $@
 
+# Building morphophonology. The "save as xfst-grn.hfst" command 
+# is in the xfst-grn.txt file.
 xfst-grn.hfst: ../bin/xfst-grn.hfst
 ../bin/xfst-grn.hfst: xfst-grn.txt
 	@echo
 	@echo "*** Building $(notdir $@) ***" ;
 	@echo
-	hfst-xfst $< -o $@ 
+	hfst-xfst -l $< 
 
 grn-gen.hfst: ../bin/grn-gen.hfst 
 ../bin/grn-gen.hfst: ../bin/lexc-grn.hfst ../bin/xfst-grn.hfst
