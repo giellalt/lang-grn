@@ -35,19 +35,19 @@ lexc-grn.hfst: ../bin/lexc-grn.hfst
 	@echo
 	hfst-lexc $^ -o $@
 
-twol-grn.hfst: ../bin/twol-grn.hfst
-../bin/twol-grn.hfst: twol-grn.txt
+xfst-grn.hfst: ../bin/xfst-grn.hfst
+../bin/xfst-grn.hfst: xfst-grn.txt
 	@echo
 	@echo "*** Building $(notdir $@) ***" ;
 	@echo
-	hfst-twolc $< -o $@ 
+	hfst-xfst $< -o $@ 
 
 grn-gen.hfst: ../bin/grn-gen.hfst 
-../bin/grn-gen.hfst: ../bin/lexc-grn.hfst ../bin/twol-grn.hfst
+../bin/grn-gen.hfst: ../bin/lexc-grn.hfst ../bin/xfst-grn.hfst
 	@echo
 	@echo "*** Building $(notdir $@) ***" ;
 	@echo
-	hfst-compose-intersect -l $+ -o $@
+	hfst-compose-intersect -1 ../bin/lexc-grn.hfst -2 ../bin/xfst-grn.hfst -o $@
 
 grn.hfst: ../bin/grn.hfst
 ../bin/grn.hfst: ../bin/grn-gen.hfst
@@ -58,7 +58,7 @@ grn.hfst: ../bin/grn.hfst
 	@echo
 	@echo "*** Building lookup-optimized $(notdir $@).ol ***" ;
 	@echo
-	hfst-lookup-optimize $@ -o $@.ol
+	hfst-fst2fst -O -i ../bin/grn-gen.hfst -o ../bin/grn.hfst.ol
 
 clean:
 	rm -f ../bin/* ../tmp/*
