@@ -1,0 +1,57 @@
+Multichar_Symbols
+
+! POS
+N+ V+ A+ 
++Adv +CC +CS +Interj +Pron +Num
+
+! Verbal MSP
++Prs +Fut +Prt +Prf 
++Ind +Imp +Cond +Opt
+1Sg+ 2Sg+ 3Sg+ 1Pli+ 1Plx+ 2Pl+ 3Pl+
+! note: we will need the inclusive / exclusive distinction
+Inf+ Caus+
+
++Irr +Term +Cond +Des +Compl +Dim
+
+
+! Nominal MSP
++Sg +Pl
++Nom +Acc +Gen +Abl +Dat +Abe 
++Adc 
++Ins +Apr +Ine +Ill +Ela +Egr
++Prl +Apr
++Com +Cns +Tra +Ter
++Ord
++PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+
+%^NAS
+
+
+@P.NEG.ON@
+@R.NEG.ON@
+@D.NEG@
+
+! Key lexicon
+
+LEXICON Root
+
+Noun ;
+Verb ;
+Adjective ;
+Adverb ;
+Conjunction ;
+Subjunction ;
+Interjection ;
+Numeral ;
+Pronoun ;
+Postposition ;
+Punctuation ;
+
+
+! POS-neutral affixes and ciltic particles
+
+LEXICON K
+          # ; ! the cliticless ones
++Qst:%>pa # ; ! the ones in -pa
+
+
