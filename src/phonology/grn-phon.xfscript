@@ -77,7 +77,7 @@ read regex [ NegativeNasal
 ] ;
 
 
-save stack ../bin/xfst-grn.hfst 
 
-exit
+
+
 
