@@ -1,0 +1,889 @@
+guarani,english,notes
+*,Inactive
+*,Supernatural beings
+añã,devil
+pombéro,mythological being
+jatere,mythological being
+póra,ghost
+tupã,god
+
+*,Humans
+ava,indian; human being
+guaig̃ui,old woman
+kamba,dark skinned person
+karai,sir
+karia'y,young wman
+kuña,woman
+kuimba'e,man
+lekaja,old man
+lechãi,old woman
+mburuvicha,chief; officer
+mitã,child
+pa'i,priest
+
+*,Animates
+aguara,fox
+akeẽ,a type of ant
+akuti,a type of rabbit
+ambere,lizard
+anguja,mouse
+ano,a type of bird
+apere'a,guinea pig
+arara'a,a type of ant
+guasu,deer
+guyra,bird
+jagua,dog
+jaakre,crocodile
+jaku,a type of bird
+jarara,a type of snake
+jate'i,small bee
+jatevy,tick
+jatyta,snail
+javevyi,stingray
+jeruti,dove
+ju'i,frog
+ka'i,monkey
+karáu,a type of bird
+karaja,macaque
+karumbe,turtle
+káva,wasp
+kavara,goat
+kavaju,horse
+kavure,type of owl
+kuati,coati
+kururu,toad
+kyju,cricket
+lembu,bug
+mainumby,humming bird
+mamanga,a type of bee
+marandova,green caterpillar
+mbarigui,a type of gnat
+mberu,fly
+mboi,snake
+mbopi,bat
+mborevi,tapir
+mburika,mule
+mbusu,eel
+mbutu,horsefly
+mbyju'i,swallow
+mykurẽ,possum
+muã,light worm
+mytũ,wild turkey
+ñakarutũ,owl
+ñakyrã,cicada
+ñandu,spider
+ñati'ũ,mosquito
+ñandái,a type of parrot
+ñetĩ,gnat
+ovecha,sheep
+panambi,butterfly
+pira,fish
+piririta,a type of bird,,"
+"
+pykasu,a type of dove
+ryguasu,chicken
+saria,crane-like bird
+sevo'i,worm
+taguato,sparrow hawk
+tahyi,ant
+tapiti,rabbit
+tarave,cockroach
+tatu,armadillo
+teju,lizard
+tetéu,a wet-land bird
+tukã,tucan
+tuku,grasshopper
+tujuju,stork
+tungusu,flea
+urukure'a,owl
+urutau,a type of song bird
+vaka,cow
+chahã,a type of bird
+chopi,thrush
+chochĩ,a type of song bird
+ynambu,partridge
+ype,duck
+yryvu,crow
+yso,caterpillar
+ysau,a type of ant
+*,Plants
+aguape,water lily
+amambái,fern
+andai,squash
+apepu,a type of orange
+arasa,guava
+aratiku,chirimocha
+avati,corn
+guajavyi,a type of tree
+guapo'y,a type of fig tree
+guavira,a type of fruit tree
+guembepi,a type of vine
+hy'akua,gourd
+jahape,a type of straw
+jatayva,a type of fruit tree
+jety,sweet potato
+juasy'y,a type of tree
+ka'a,yerba mate tree
+ka'arẽ,a medicinal herb
+karanda,palm tree
+kumanda,beans
+kuratũ,coriander
+kurupa'y,a type of tree
+kurupika'y,a resine-producing tree
+mandi'o,yucca
+manduvi,peanuts
+mandyju,cotton
+mba'ysyvo,spurge
+mbokaja,coconut tree
+mburukuja,passion flower
+merõ,melon
+ñanã,weed
+ñuatĩ,thorn
+ombu,a type of tree
+pakova,banana
+pakuri,a fruit tree
+petỹ,tobacco
+pindo,a type of palm tree
+piri,straw
+tajy,a type of tree
+takuára,bamboo tree
+tamarakunã,a type of orchid
+tarumã,an olive-like tree
+tembetary,a fragrant tree
+ysypo,vine
+yva,fruit
+yvíra,a fiber-producing plant
+yvoty,flower
+yvyra,tree
+
+*,Inanimate natural
+amã,rain
+ára,day
+arai,cloud
+araity,wax
+eíra,honey
+jasy,moon
+ka'aru,afternoon
+kamby,milk
+kuarahy,sun
+mbyja,star
+yvága,sky
+javorái,bush
+mangaysy,resine
+mboypyri,other side of river
+ñai'ũ,mud
+ñandy,grease
+ñu,field
+pyhare,night
+takuru,ant hill
+tuju,mud
+y,water
+yvy,ground
+
+*,Inanimate Man-made
+ahoja,cover
+ajaka,basket
+angu'a,mortar
+asuka,sugar
+guaripóla,a drink
+hu'i,dried yuca
+hu'y,arrow
+jetapa,scissors
+ju,needle
+juky,salt
+ka'a,tea
+kachape,carriage
+kachivéo,canoe
+karamegua,trunk
+kasõ,pants
+kiveve,a dessert
+kokue,farm
+kora,barn
+kosereva,a dresser
+koty,room
+kuatia,paper
+kyha,hammock
+kyse,knife
+mbeju,yucca dish
+mboka,pistol
+mbo'y,necklace
+mbujape,bread
+mbusia,sausage
+mínga,collective
+namichãi,earring
+ña'ẽ,container
+ñandy,grease
+japepo,pan
+ñuhã,trap
+okẽ,door
+paje,spell
+patula,spatula
+pinda,fish; hook
+pohã,medicine
+portiju,food,tembi'u?
+"""+rape""",path
+"""+rata""",fire
+"""+renimbe""",bed
+"""+renimbo""",threat
+"""+retã""",country
+"""+róga""",house
+"""+rovetã""",window
+"""+rupa""",bed
+tanimbu,ash
+terere,cold tea
+sã,rope
+sái,dress
+tapỹi,home
+táva,town
+terere,cold tea
+typycha,broom
+vosa,bag
+chipa,manioc
+chicharo,fried meat
+chulu,underwear
+chumbe,belt
+yrupẽ,sieve
+yty,garbage
+
+*,Relationally defined objects
+
+*,Kinship/other interpersonal relations
+irũ,companion
+jaryi,grandmother
+kypy'y,a woman's younger sister
+kyvy,a woman's brother
+memby,a woman's offspring
+ména,husband
+"""+rajy""",a man's daughter
+"""+ra'y""",a man's son
+"""+rapicha""",fellow man; friend
+"""+reindy""",a man's sister
+"""+rembiguái""",servant
+"""+rendota""",boss
+"""+rekovia""",substitute
+"""+rerekua""",care-taker
+"""+rovaja""",sister; brother in law
+"""+ruvicha""",boss
+"""+ryke""",a woman's older syster
+"""+ryke'y""",man's younger brother
+"""+ryru""",container
+"""+ryvy""",man's older brother
+"""+ru""",father
+sy,mother
+
+*,Body Parts
+
+* ,Human and other animate body parts
+ahy'o,throat
+aguai,snake's rattle
+ajúra,neck
+akã,head
+ape,back; surface
+apekũ,palate
+apysa,ear canal
+ati'y,shoulders
+atúa,back
+va,hair
+ju'ái,goiter
+juru,mouth
+jyva,arm
+kambire,breasts
+kangue,bone
+karaku,marrow
+kũ,tongue
+kuã,finger
+ku'a,waist
+kupy,leg
+mbéu,mucus
+mbóre,male sexual organ
+nambi,ear
+pepo,wing
+péu,pus
+pire,skin
+po,hand
+popĩa,bee stinger
+py,foot
+py'a,stomach; heart
+pyapy,wrist
+pyti'a,chest
+"""+rague""",hair
+"""+rãi""",tooth
+"""+rakamby""",lower limbs
+"""+rapi'a""",testicles
+"""+ra'ỹi""",testicles; seed
+"""+rako""",female sexual organ
+"""+rañykã""",chin 
+"""+ratĩ""",horn
+"""+ratypykua""",dimples
+"""+rembo""",penis
+"""+rembe""",lips
+"""+rendy""",saliva
+"""+rendyva""",beard
+"""+renypy'a""",knee
+"""+resa""",eye
+"""+rete""",body
+"""+retyma""",leg
+"""+revi""",anus
+"""+rova""",face
+"""+ro'o""",flesh
+"""+ropea""",eyelash
+"""+ropepi""",eyelid
+"""+ruguái""",tail
+"""+ruguy""",blood
+"""+rumby""",hips
+"""+rupi'a""",egg
+"""+rye""",belly
+syva,forehead
+takara'a,chicken; bird stomach
+tĩ,nose
+tyvyta,eyebrow
+
+*,Non-animate body-parts
+"""'a""",fruit
+ape,surface
+ñuatĩ,thorn
+"""+rapo""",root
+"""+rakã""",branch
+"""+rakãmby""",split branch
+"""+rogue""",leaf
+"""+roky""",sprout
+"""+ru''ã""",top
+"""+rugua""",bottom
+yke,side
+yva,handle
+
+*,Spacial relations,Important postpositions
+akatúa,right
+asu,left
+guy,area under
+mbyte,middle
+"""+roka""",outside of
+paha,end of
+pa'ũ,between
+"""+rapykue""",behind
+"""+renda""",place
+"""+renonde""",front
+"""+rovake""",front; facing
+ypy,close-by place
+
+*,Properties
+
+*,Color
+hũ,black
+morotĩ,white
+pytã,red
+"""+rovy""",blue; green
+sa'yju,yellow
+
+*,Spatial measure
+anambusu,thick
+guasu,big; great
+joja,equal
+kakuaa,big,to grow'
+karape,low; short
+ku'i,little pieces; ground
+kyra,fat
+mbyky,short
+michĩ,small
+pererĩ,thin
+plíki,tiny; insignificant,pl-!
+po'i,thin
+pokã,scarce
+puku,long
+"""+rypy""",deep
+tuicha,big
+
+*,Time-related properties
+aju,ripe
+apeju,semi-ripe
+aky,not ripe
+kyrỹi,tender
+peky,not ripe
+pyahu,new
+tuja,old
+tyarõ,adult; full-grow
+
+*,Shape
+akua,sharp
+apopẽ,wavy
+apu'a,round
+karapã,arched
+karẽ,crooked
+karãu,bent
+kechẽ,crooked
+pe,flat
+pehẽ,crooked
+pekõi,double-headed
+vã,crooked
+chalai,tattered
+chara,snarled
+chororĩ,curly
+
+*,Other physical properties
+akỹ,wet
+apĩ,bare
+apovõ,slimy
+chivu,full
+chovi,overflowing
+hái,sour
+he,tasty
+jajy,resistant
+kã,dry
+kangy,weak
+konĩ,undulate
+korocho,coarse
+mbarete,strong
+nandi,empty
+nẽ,stinky
+para,spotted
+perõ,bold; hairless
+piru,skinny; dry
+pititĩ,dappled
+porora,coarse
+pyra,raw
+pyti'u,stinky
+"""+ranguinõ""",smelly
+"""+ratã""",hard
+"""+ravara""",coarse
+"""+raviju""",hairy
+"""+re'ẽ""",sweet
+"""+renyhẽ""",full
+"""+ru'ũ""",soft
+"""+ryjui""",foamy
+"""+ryku""",melted
+"""+rykue""",wet
+"""+rypa""",without water
+"""+rypy'a",clotted
+"""+rypy'ũ""",dense; thick
+vevúi,light (weight)
+cha'ĩ,wrinkled
+
+*,Socially-defined Properties/Dispositions
+akuã,fast running
+ñaña,mean
+arhel,unpleasant
+ate'ỹ,lazy
+ay,graceless; plain
+ayvu,noisy
+ensuguy,reserved; private
+guápo,hard worker
+juky,cute
+ka'avo,funny
+kate,elegant; well dressed
+kachiãi,joking; not serious
+mbegue,slow
+japu,lair
+mboriahu,poor
+mbiriki,restless
+mirĩ,timid
+moñãi,thief 
+pituva,clumsy
+porã,beautiful
+potĩ,clean
+pya'e,fast
+rari,nimble; agile
+"""+rakate'ỹ""",stingy; selfish
+"""+retia'e""",cheerful
+"""+rosã""",survivor; doesn't die
+"""+rory""",friendly
+sagua'a,unrefined
+sambo,flexible; elastic
+sãngy,sensitive (cries easily)
+sogue,without money
+tarova,crazy
+tavy,ignorant
+vai,ugly
+chae,not professional
+chapĩ,poorly dressed
+
+*,States
+
+*,Environmental states
+kã,dry
+"""+raku""",hot
+"""+re'õ""",humid
+ro'y,cold
+"""+ro'ỹsã""",chilly; cool
+sakã,clear
+sỹi,slippery; smooth
+ypytũ,dark
+
+*,Physical states
+ai,rotten
+anga'u,queasy
+apa,cramp
+apenõ,rush; bumpy
+ha'o,foul odor
+havẽ,moulding
+jehyi,numb
+jukku'a,panting
+kane'õ,tired
+ko'õ,itch 
+kyrỹi,tickle
+mbyry'ái,hot
+embyahyi,hunger; hungry
+pipi,itch
+pirĩ,goose bumps
+punga,indigestion
+puru'a,pregnant
+pyáu,unclear voice
+"""+rasy""",ill; painful
+"""+raso""",warm-infested
+"""+remõi""",itch
+"""resãi""",healthy
+"""+rygg̣̃uatã""",full
+ruru,swollen
+soso,trembling (joints)
+susũ,trembling
+uhéi,thirsty
+
+*,Emotional states
+aguara,flattered
+angekói,worried
+jeguaru,disgusted; revolted
+kuerái,bored
+kele'e,flattered
+pijoha,anxious
+pochy,angry
+rag̃e,uneasy; anxious
+vy'a,happy
+añõ,alone
+
+*,Spatial Disposition
+acuruchĩ,hunched; cramped
+are,spend a long time
+aperera,scattered
+asãi,spread
+hysyi,scattered
+jo'a,one on top of other
+juaju,joined
+juapy,joined
+opóvo,face down
+opývo,backwards
+ovayvávo,face up
+sarambi,in disorder
+
+*,Active Marking
+
+*,Relations
+ko,dwell
+are,spend a long time
+me,be present
+
+*,Activities
+*,Nontranslational motion
+apajerei,roll
+guapy,sit
+japaro,turn over
+jatyko,lean
+jayvy,bend down
+jeko,lean
+jere,turn
+kacha,sway
+ku'e,move
+kuchu,shake
+mumũ,swarm
+mỹi,move
+ñenõ,lie down
+ñestĩ,kneel
+pepe,flap
+po,jump
+pojái,reach with hand
+poñy,crawl
+pu'ã,get up
+pyryrỹi,spin
+pyta,stop
+ryryi,tremble
+sysyi,twitch
+tarara,tremble (strongly)
+temũi,jiggle
+typeka,scratch (chicken)
+tytyi,twitch
+vava,move back and forth
+
+
+*,Translational motion
+apasuru,enter forcefully
+g̃uahẽ,arrive
+guata,walk
+guejy,descend
+guevi,go backwards
+ja,get closed to; contact
+ho,go
+jei,get away
+je'ói,leave
+jevy,come back
+ju,come
+jupi,ascend; go up
+ke,enter; go in
+ko'i,gather in one place
+kundaha,pace
+muña,go after; pursue
+ñañĩ,run
+pia,deviate
+pykúi,start going somewhere
+"""+rasa""",pass
+sẽ,get out
+syry,flow
+va,change location
+veve,fly
+yta,swim
+
+*,Human/Animate activity
+guahu,cry loudly
+hu'u,cough
+jahu,bathe
+jahe'o,weep
+jalea,gain weight
+japiro,uncover the glans
+ja'yvere,make a mistake
+jehe'a,mix
+jepe'e,warm up close to fire
+jeroky,dance
+kaka,defecate
+kakuaa,grow
+kaluka,become senile
+karu,eat
+ka'u,get drunk
+ke,sleep
+kirirĩ,be quiet; stop talking
+kuaru,urinate
+mba'apo,work
+ndyvu,spit
+ña'ã,push out
+ñambyvo,blow one's nose
+ñe'ẽ,talk
+ñembiso,to grind (in a mortar)
+ñemitỹ,cultivate
+ñemũ,shop
+ñepindyi,clean
+mbo'a,lay egg
+mangea,spy
+manõ,die
+menda,get married
+pay,wake up
+poti,perish
+puka,laugh
+purahei,sing
+pynõ,fart
+"""+rasẽ""",cry
+rambi,doze off
+"""+reñõi""",sprout
+sako'i,get ready
+sapukái,scream; yell
+taky,attack
+vira,have seconds
+vichea,spy
+chuchu,hesitate
+
+*,Inanimate activity
+"""'a""",fall down
+guyguy,flicker
+hayvi,fine rain
+jajai,glitter; briliant
+jeka,break in pieces
+je'o,lose color
+jera,get untidied
+jero'a,bent slightly
+j,get cooked
+kai,burn
+kapu,explode
+kui,fall of own weight
+ky,rain
+gue,go off (light)
+mimbi,shine
+no'õ,gather (liquid)
+ñehẽ,pour out; spill
+ñepyrũ,start
+ñyñỹi,shrink
+pa,end
+pa'ã,get stuck
+pẽ,"break (thin, long)"
+pi,stop raining
+pu,burst (liquid involved)
+pupu,boil
+saingo,hang
+so,snap (as in break)
+soro,get torn
+suñu,thunder
+timbo,smoke
+tiri,crack
+titi,agglomerate
+vera,shine
+vevúi,float
+vo,break lengthwise
+vu,swell
+
+*,"Onomatopoetic words with only approximate english translations, but fit into the previous category apparently"
+chararã,crash down
+chiã,squeak
+chivivi,squirt
+chyryry,fry
+gua'i,yap
+gualala,gurgle
+guelele,gurgle
+guererẽ,murmur of crowd
+guilili,high-pitched sounds
+karakaka,cackle
+kokore,clack
+kororõ,growl
+ngululu,murmur
+ngururu,mumble
+pararã,clank
+piã,peep
+piriri,rustle
+pururũ,crinkle
+tokoro'o,crow
+torore,croone
+tororõ,pour forth
+
+*,Actions
+
+*,Affect
+japo,make; do
+ñopẽ,braid
+
+*,Contact/Affect
+aho'i,cover
+amindu'u,chew slowly
+añuva,embrace
+api,hit the mark
+apytĩ,tie
+hai,"write, scratch"
+haryvo,take off at once
+havonã,put soap on something
+hekyi,take off by pulling
+heréi,lick
+hykuavo,pour
+jaty,cover with dirt
+javy,miss a target
+javyky,touch forbidden object
+juhu,find
+joka,break
+joko,hold
+jokua,tie
+jopy,press
+jo'o,dig
+jope,hold close to fire
+jopi,sting
+jora,untie
+joso,pound
+jura,fasten with lazo
+karãi,to claw
+kawai,attack
+kambu,suck
+kutu,stab
+kytĩ,cut
+kyty,rub
+mboi,undress
+mbota,hit
+monde,put clothes on
+monã,smear
+muaña,push
+nupã,beat
+ñapĩ,shave
+ñapipĩ,eat small pieces
+ñatõi,touch
+ñapi'ũ,sample food
+ñotỹ,bury
+peju,blow
+peka,lift slightly
+pete,beat; hit
+pichãi,pinch
+pita,smoke
+pichy,caress
+piro,peel
+poi,let go
+poka,twist
+poko,touch
+popĩ,scrape yucca
+poru,use
+pu'aka,resist
+pyrũ,step
+pyte,suck
+pyvu,stir
+"""+ra'ã""",aim at; throw at
+"""+ra'ãrõ""",wait
+rambosa,eat breakfast
+"""+reja""",leave something
+"""+re'ỹi""",scratch oneself
+"""+rupi""",lift
+"""+rypyi""",sprinkle
+sayño,card (wool)
+su'u,bite
+syryku,slurp
+ty,drop
+tykua,pour hot water
+typei,sweep
+"""'u""",ingest
+
+*,Cause-motion
+mondo,send
+nohẽ,take out
+raha,take
+roja,carry
+ru,bring
+ra'ã,aim and throw at
+
+*,Cause-possession (transfer)
+jara,grab
+jowa,buy,jogua?
+me'ẽ,give
+monda,steal
+pe'a,take away; seize
+pyhy,take; grab
+
+* ,Transform
+hesy,roast
+hovere,burn the surface
+johéi,wash
+johyi,clean
+maimbe,toast
+mbichy,roast
+pyso,stretch
+"""+rapy""",burn
+
+*,Mental/Social actions
+
+*,Social actions
+haru,spoil
+he'i,say
+henõi,call
+hero,give a nickname
+hunga,hurt
+jahéi,mistreat
+ja'o,scold
+jurure,"ask, request"
+jokuái,assign a chore
+korói,scold sharply
+mbe'u,tell
+mondyi,scare
+mongeta,engage in conversation
+porandu,ask a question
+pyru,substitute
+pytyvõ,help
+"""+ravira""",beat in punishment
+
+*,Perception
+ma'ẽ,look
+ñandu,feel; sense
+"""+recha""",see
+"""+rendu""",listen
+"""+retũ""",smell; kiss
+
+*,Emotion
+kotevẽ,need
+kyhyje,be afraid
+pota,want
+penã,worry; suffer
+picha,embarrass
+"""+rayhu""",love
+"""+reka""",seek; miss
+
+*,Knowledge and Belief
+kuaa,know
+mandu'a,remember
+mo'ã,"to believe (falsely"")"
+he'i,tell; think
+"""+resarai""",forget
+rovia,to believe
