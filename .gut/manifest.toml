@@ -1,0 +1,35 @@
+[package]
+name = "grn"
+human_name = "Guarani"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.grn]
+filename = "gn-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-grn"
+platform = "windows"
+uuid = "A77DF771-2B1C-456D-9B03-80BBB02E41A4"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.gn"
+package = "speller-grn"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-grn-mso"
+platform = "windows"
+uuid = "FCAB4F81-E7E3-430D-92C5-80C54F34AFA0"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-grn"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
