@@ -10,7 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/issues)
- [![Build Status](https://github.com/giellalt/lang-grn/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-grn/actions)
+[![Build Status](https://github.com/giellalt/lang-grn/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-grn/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-grn)](https://raw.githubusercontent.com/giellalt/lang-grn/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-grn)
 for the Guarani language by using the [Divvun Installer](http://divvun.no)
