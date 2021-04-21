@@ -1,7 +1,7 @@
 # Guarani documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/template-lang-grn)](https://raw.githubusercontent.com/giellalt/lang-grn/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-grn)](https://raw.githubusercontent.com/giellalt/lang-grn/develop/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/issues)
 [![Build status](https://github.com/giellalt/lang-grn/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-grn/actions)
 
