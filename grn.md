@@ -606,27 +606,6 @@ These were the set types.
 
 
 
-Perhaps these are two variants of the same conjunction 'and', 'y'
-
-
-
-	         first	            second	third
-singular	che	                nde	    ha'e	
-plural	ñande (inclusive),   peẽ	ha'ekuéra/ hikuái
-         ore (exclusive)
-
-
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-
 
 
 
@@ -674,21 +653,26 @@ plural	ñande (inclusive),   peẽ	ha'ekuéra/ hikuái
 
 
 
+# Symbol affixes
 
 
-We describe here how abbreviations are in Guarani are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
 
 
+
+
+
+
+	         first	            second	third
+singular	che	                nde	    ha'e	
+plural	ñande (inclusive),   peẽ	ha'ekuéra/ hikuái
+         ore (exclusive)
+
+
+
+
+
+
+Perhaps these are two variants of the same conjunction 'and', 'y'
 
 
 
@@ -742,6 +726,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Guarani are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
