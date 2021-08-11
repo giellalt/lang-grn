@@ -607,14 +607,22 @@ These were the set types.
 
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-grn/blob/main/../src/cg3/functions.cg3)</small>
-# Symbol affixes
+Perhaps these are two variants of the same conjunction 'and', 'y'
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-grn/blob/main/../src/fst/stems/conjunctions.lexc)</small>
+
+
+	         first	            second	third
+singular	che	                nde	    ha'e	
+plural	ñande (inclusive),   peẽ	ha'ekuéra/ hikuái
+ore (exclusive)
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-grn/blob/main/../src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-grn/blob/main/../src/fst/stems/pronouns.lexc)</small>
 
 
 
@@ -663,22 +671,14 @@ walk        use          be.big
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-grn/blob/main/../src/fst/affixes/verbs.lexc)</small>
-
-
-	         first	            second	third
-singular	che	                nde	    ha'e	
-plural	ñande (inclusive),   peẽ	ha'ekuéra/ hikuái
-ore (exclusive)
+# Symbol affixes
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-grn/blob/main/../src/fst/stems/pronouns.lexc)</small>
-Perhaps these are two variants of the same conjunction 'and', 'y'
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-grn/blob/main/../src/fst/stems/conjunctions.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-grn/blob/main/../src/fst/affixes/symbols.lexc)</small>
 
 
 
