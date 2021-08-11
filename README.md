@@ -3,7 +3,7 @@ The Guarani morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/issues)
 [![Build Status](https://github.com/giellalt/lang-grn/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-grn/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-grn)](https://raw.githubusercontent.com/giellalt/lang-grn/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/blob/main/LICENSE)
 
 This repository contains finite state source files for the Guarani language,
 for building morphological analysers, proofing tools
