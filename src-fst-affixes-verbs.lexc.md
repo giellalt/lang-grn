@@ -1,26 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 walk        use          be.big
 1s       a-guata      ai-poru      che-tuicha
 2s       re-guata      rei-poru      nde-tuicha
@@ -30,20 +9,9 @@ walk        use          be.big
 2p       pe-guata      pei-poru      pende-tuicha
 3p       o-guata      oi-poru      i-tuicha
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-grn/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-grn/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+
