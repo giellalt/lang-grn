@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-grn/main/badge.svg)](https://github.com/giellalt/lang-grn/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-grn/main/badge.svg)](https://github.com/giellalt/lang-grn/actions)
 
 This page documents the work on the [Guarani language model](http://github.com/giellalt/lang-grn). 
 
