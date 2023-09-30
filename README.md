@@ -1,6 +1,7 @@
 The Guarani morphology and tools
 ==========================================
 
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-grn%2Fgh-pages%2Flemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-grn/main/badge.svg)](https://github.com/giellalt/lang-grn/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/blob/main/LICENSE)
