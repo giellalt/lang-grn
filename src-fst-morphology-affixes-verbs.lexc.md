@@ -12,6 +12,3 @@ walk        use          be.big
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-grn/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
-
----
-
