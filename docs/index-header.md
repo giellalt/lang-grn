@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-grn?label=CI)](https://builds.giellalt.org/pipelines/lang-grn/builds/latest)
-[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the [Guarani language model](http://github.com/giellalt/lang-grn). 
 
