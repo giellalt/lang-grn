@@ -1,6 +1,3 @@
-spellername = "Guarani"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "A77DF771-2B1C-456D-9B03-80BBB02E41A4", kind = "nsis" },
     { value = "FCAB4F81-E7E3-430D-92C5-80C54F34AFA0", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Guarani"
+version = "0.1.1"
+
+[package.grammar]
+name = "Guarani"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Guarani"
+version = "0.1.0"
