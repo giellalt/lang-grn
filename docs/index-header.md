@@ -7,6 +7,7 @@
 <div class="badges" markdown="1">
 [![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-grn%2Fgh-pages%2Fmaturity.json)](https://giellalt.github.io/MaturityClassification.html) <br/>
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-grn%2Fgh-pages%2Flemmacount.json) <br/>
+[![Speller suggestion quality](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-grn%2Fgh-pages%2Fspellersuggs.json)](typosreport/) <br/>
 [![License](https://img.shields.io/github/license/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/blob/main/LICENSE) <br/>
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/issues) <br/>
 [![Build Status](https://builds.giellalt.org/api/badge/lang-grn?label=CI)](https://builds.giellalt.org/pipelines/lang-grn/builds/latest) <br/>
