@@ -1,12 +1,12 @@
 The Guarani morphology and tools
 ==========================================
 
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-grn%2Fgh-pages%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-grn%2Fgh-pages%2Fbadgedata%2Ffst-lemmacount.json)
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-grn%2Fmain%2Fdocs%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-grn%2Fmain%2Fdocs%2Fbadgedata%2Ffst-lemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/issues)
 [![License](https://img.shields.io/github/license/giellalt/lang-grn)](https://github.com/giellalt/lang-grn/blob/main/LICENSE)
-[![Doc Build Status](https://github.com/giellalt/lang-grn/workflows/Docs/badge.svg)](https://github.com/giellalt/lang-grn/actions)
-[![CI/CD Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-grn/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-grn/main/latest)
+[![Doc build](https://img.shields.io/github/actions/workflow/status/giellalt/lang-grn/docs.yml?logo=github&label=DocCI)](https://github.com/giellalt/lang-grn/actions/workflows/docs.yml)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-grn?logo=buildkite&label=CoreCI)](https://builds.giellalt.org/pipelines/lang-grn/builds/latest)
 
 Download nightly / CI/CD installation packages for testing (contains the core zhfst file(s)):
 
